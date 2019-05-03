@@ -1,0 +1,268 @@
+body{}
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: auto;
+    }
+    /* header */ 
+
+.container{
+    width: 1300px;
+    background-color: antiquewhite;
+    margin: auto;
+
+}
+
+.head{
+    width: 30%;
+    float: left;
+}
+.head h1{
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+    cursor: cell;
+}
+
+.nav{
+    width: 72%;
+    float: right;
+    }
+.nav ul{
+    list-style: none;
+    float: right;
+    text-decoration: none;
+    margin-top: 10px;
+    }
+.nav ul li{
+    display: -webkit-inline-box;
+    margin-left: 80px;
+    text-transform: uppercase;
+    text-decoration: blink;
+    padding: 10px 10px;
+    animation: initial;
+    transition: .5s;
+}
+.nav ul li a{
+        text-decoration: none;
+        font-size: 17px;
+        color: grey;
+        transition: cubic-bezier(0.18, 0.89, 0.32, 1.28) 0.5s all;
+        cursor: cell;
+        padding: 10px 20px;
+
+        border-radius: 3px;
+        box-shadow: 0 0 6px;
+}
+.nav ul li a:hover{
+
+background-color: #d4dbdf;
+}
+
+/* banner */ 
+
+.banner{    
+    width: 1300px;
+    margin-top: 30px;
+    float: none;
+}
+.banpic{
+    width: 1300px;
+    margin-top: 50px;
+    float: none;
+}
+.bannerpic{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 50px 0;
+}
+.banContent{
+    width: 1140px;
+    overflow: hidden;
+}
+.banContent1{
+    color: gray;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.banContent2{
+    color: gray;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.banContent3{
+
+font-size: 16px;
+
+padding: 25px 0;
+
+font-style: italic;
+}
+.leave{
+    color: gray;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.post{
+
+width: 1080px;
+
+margin: auto;
+
+margin-top: 50px;
+
+overflow: hidden;
+}
+
+.post1pic{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+.postcontent1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: gray;
+}
+.postcontent2{
+    margin-bottom: 15px;
+    color: #6c6969;
+    font-size: 30px;
+    font-weight: 200;
+}
+.postcontent3{
+    margin-top: 15px;
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
+}
+.postpic1{
+        max-width: 100%;
+    display: block;
+
+}
+.postpic2{
+        max-width: 100%;
+    display: block;
+
+}
+.post2content1{margin-top: 15px;
+    margin-bottom: 15px;
+    color: gray;}
+.post2content2{margin-bottom: 15px;
+    color: #6c6969;
+    font-size: 30px;
+    font-weight: 200;}
+.post2content3{margin-top: 15px;
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;}
+
+.email{
+    width: 1060px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.email-box{
+        background: #33333329;
+    text-align: center;
+    padding: 50px;
+}
+.mail{
+    height: 40px;
+    width: 170px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #0f0f10;
+    padding-left: 3px;
+    background: transparent;
+    /* font-size: 200px; */
+}
+
+.email h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 25px auto;
+    text-align: center;
+}
+.email div{
+    
+text-align: center;
+}
+.buttn{
+    background: aliceblue;
+    padding: 15px 25px;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 160px;
+    font-family: cursive;
+    cursor: cell;
+    transition: .5s;
+    border-radius: 6px;
+    font-weight: 1000;
+}
+
+.container{
+    width: 1250px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #e3e3e3;
+}
+
+.footleft ul{
+
+float: left;
+
+width: 50%;
+
+list-style: none;
+
+padding: 10px;
+
+}
+
+ .footleft ul li{
+
+margin-left: 20px;
+
+display: inline-block;
+
+}
+
+  .footleft ul li a{
+
+text-decoration: none;
+
+color: #0d0839;
+
+padding: 10px;
+
+}
+
+.footleft ul li a:hover{
+    
+background-color: #d4dbdf;
+}
+
+.footright ul{
+    float: right;
+    text-align: right;
+    width: 50%;
+    list-style: none;
+    padding: 10px;
+}
+.footright ul li{
+    margin-left: 20px;
+    display: inline-block;
+}
+.footright ul li a{
+    text-decoration: none;
+    color: #0d0839;
+    padding: 10px;
+}
+
+.footright ul li a:hover{background-color: #d4dbdf;
+}
